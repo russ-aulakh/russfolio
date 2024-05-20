@@ -121,22 +121,22 @@ function HeroSection() {
               <h3>User Reviews:</h3>
               <ul>
                 <li>
-                  <strong>u/Prestigious-Deer640:</strong> "Wow, I just found my dream flight using points with this Calendar View tool in just a few minutes. Thanks a ton for sharing it!💕💕"
+                  <strong>u/Prestigious-Deer640:</strong> &quot;Wow, I just found my dream flight using points with this Calendar View tool in just a few minutes. Thanks a ton for sharing it!💕💕&quot;
                   <a href="https://www.reddit.com/r/churningcanada/comments/1c8kjd8/comment/l0gmit4/" target="_blank" rel="noopener noreferrer">Read
                     more</a>
                 </li>
                 <li>
-                  <strong>u/CommunicationProud82:</strong> "This and seats.aero (for Star Alliance) are my go-tos now"
+                  <strong>u/CommunicationProud82:</strong> &quot;This and seats.aero (for Star Alliance) are my go-tos now&quot;
                   <a href="https://www.reddit.com/r/churningcanada/comments/1befz81/comment/kuui2ar/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener noreferrer">Read
                     more</a>
                 </li>
                 <li>
-                  <strong>u/dotCOM16:</strong> "Great to hear, I love the platform and had posted several reviews myself."
+                  <strong>u/dotCOM16:</strong> &quot;Great to hear, I love the platform and had posted several reviews myself.&quot;
                   <a href="https://www.reddit.com/r/Concordia/comments/1cto9o9/comment/l4jbipb/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener noreferrer">Read
                     more</a>
                 </li>
                 <li>
-                  <strong>u/Swimming_Statement69:</strong> "This flymile.pro was very helpful, I even found 1 business 60K and 1 First to Tokyo next month , booked for my mom and dad. My mom said why not first for me 🥲🤣"
+                  <strong>u/Swimming_Statement69:</strong> &quot;This flymile.pro was very helpful, I even found 1 business 60K and 1 First to Tokyo next month , booked for my mom and dad. My mom said why not first for me 🥲🤣&quot;
                   <a href="https://www.reddit.com/r/awardtravel/comments/1csikpb/comment/l46u7ha/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener noreferrer">Read
                     more</a>
                 </li>
