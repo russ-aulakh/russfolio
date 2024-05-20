@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Russ',
-  description: 'Hello! I\'m Russ, a seasoned software engineer and co-founder of Flymile.pro, a platform that rapidly attracted over 5,000 users. I spearheaded the development of Concordia.courses, revolutionizing educational resources by integrating comprehensive data analytics. I love to solve Real problems for Real People.',
+  description: 'Hello! I\'m Russ, a software engineer and co-founder of Flymile.pro, a platform that rapidly attracted over 5,000 users. I spearheaded the development of Concordia.courses, revolutionizing educational resources by integrating comprehensive data analytics. I love to solve real problems for real People.',
 };
 
 export default function RootLayout({ children }) {
