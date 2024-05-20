@@ -1,6 +1,7 @@
 // @flow strict
 
 import * as React from 'react';
+import Image from 'next/image';
 
 function ProjectCard({ project }) {
 
@@ -77,7 +78,14 @@ function ProjectCard({ project }) {
         <div
             className="rounded-full h-140 w-140 transition-all duration-1000  hover:grayscale-0 hover:scale-110 cursor-pointer"
             style={{display: 'flex', justifyContent: 'center'}}>
-          <img src={project.pics[0]} className='rounded-lg' style={{ width: '250px', height: 'auto' }} alt="related picture" />
+          <Image
+                src={project.pics[0]}
+                className='rounded-lg'
+                width={250}
+                height={200} // You should specify a height as Next.js Image component requires both width and height. Adjust this based on your design needs.
+                layout="intrinsic" // This maintains the natural aspect ratio, but you need to specify width and height.
+                alt="related picture"
+          />
             </div>
           <div>
       </div>
