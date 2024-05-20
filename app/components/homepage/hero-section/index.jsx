@@ -1,23 +1,22 @@
 // @flow strict
 
-import * as React from 'react';
+import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
-import { BsGithub, BsLinkedin } from 'react-icons/bs';
-import { FaReddit } from 'react-icons/fa';
-import { MdDownload } from 'react-icons/md';
-import { RiContactsFill } from 'react-icons/ri';
-import { SiLeetcode } from 'react-icons/si';
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+import {FaReddit} from "react-icons/fa";
+import { MdDownload } from "react-icons/md";
+import { RiContactsFill } from "react-icons/ri";
+import { SiLeetcode } from "react-icons/si";
 import './styles.css';
+
 
 function MyLogo({ size = 30 }) {
   return (
-      <Image
-          src="/flymile.ico"
+      <img
+          src="/flymile.ico"  // Path to the .ico file stored in the public directory
           alt="Flymile Logo"
-          width={size}
-          height={size}
-          layout="intrinsic" 
+          style={{ width: size, height: size }}
       />
   );
 }
@@ -38,53 +37,52 @@ function HeroSection() {
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
             This is {' '}
-            <span className="text-pink-500">{personalData.name}</span>
-            {`, I'm a Professional `}
-            <span className="text-[#16f2b3]">{personalData.designation}</span>
+            <span className=" text-pink-500">{personalData.name}</span>
+            {` , I'm a Professional `}
+            <span className=" text-[#16f2b3]">{personalData.designation}</span>
             .
           </h1>
 
           <div className="my-12 flex items-center gap-5">
             <Link
               href={personalData.github}
-              target="_blank"
-              rel="noopener noreferrer"
+              target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
             </Link>
             <Link
               href={personalData.linkedIn}
-              target="_blank"
-              rel="noopener noreferrer"
+              target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsLinkedin size={30} />
             </Link>
             <Link
                 href={personalData.leetcode}
-                target="_blank"
-                rel="noopener noreferrer"
+                target='_blank'
                 className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
+
               <SiLeetcode size={30} />
             </Link>
             <Link
               href={personalData.reddit}
-              target="_blank"
-              rel="noopener noreferrer"
+              target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
+
               <FaReddit size={30} />
             </Link>
             <Link
                 href={personalData.flymile} // assuming you have a URL for your startup in personalData
                 target="_blank"
-                rel="noopener noreferrer"
                 className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <MyLogo size={30} />
             </Link>
+           
+
           </div>
 
           <div className="flex items-center gap-3">
@@ -122,22 +120,22 @@ function HeroSection() {
               <ul>
                 <li>
                   <strong>u/Prestigious-Deer640:</strong> &quot;Wow, I just found my dream flight using points with this Calendar View tool in just a few minutes. Thanks a ton for sharing it!💕💕&quot;
-                  <a href="https://www.reddit.com/r/churningcanada/comments/1c8kjd8/comment/l0gmit4/" target="_blank" rel="noopener noreferrer">Read
+                  <a href="https://www.reddit.com/r/churningcanada/comments/1c8kjd8/comment/l0gmit4/" target="_blank">Read
                     more</a>
                 </li>
                 <li>
                   <strong>u/CommunicationProud82:</strong> &quot;This and seats.aero (for Star Alliance) are my go-tos now&quot;
-                  <a href="https://www.reddit.com/r/churningcanada/comments/1befz81/comment/kuui2ar/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener noreferrer">Read
+                  <a href="https://www.reddit.com/r/churningcanada/comments/1befz81/comment/kuui2ar/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">Read
                     more</a>
                 </li>
                 <li>
                   <strong>u/dotCOM16:</strong> &quot;Great to hear, I love the platform and had posted several reviews myself.&quot;
-                  <a href="https://www.reddit.com/r/Concordia/comments/1cto9o9/comment/l4jbipb/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener noreferrer">Read
+                  <a href="https://www.reddit.com/r/Concordia/comments/1cto9o9/comment/l4jbipb/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">Read
                     more</a>
                 </li>
                 <li>
                   <strong>u/Swimming_Statement69:</strong> &quot;This flymile.pro was very helpful, I even found 1 business 60K and 1 First to Tokyo next month , booked for my mom and dad. My mom said why not first for me 🥲🤣&quot;
-                  <a href="https://www.reddit.com/r/awardtravel/comments/1csikpb/comment/l46u7ha/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank" rel="noopener noreferrer">Read
+                  <a href="https://www.reddit.com/r/awardtravel/comments/1csikpb/comment/l46u7ha/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button" target="_blank">Read
                     more</a>
                 </li>
               </ul>
@@ -146,7 +144,9 @@ function HeroSection() {
         </div>
       </div>
     </section>
-  );
+  )
+      ;
 };
+
 
 export default HeroSection;
