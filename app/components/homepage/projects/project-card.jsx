@@ -13,7 +13,7 @@ function ProjectCard({ project }) {
         if (project.reviews && project.reviews.length > 0) {
             const intervalId = setInterval(() => {
                 setActiveReviewIndex((current) => (current + 1) % project.reviews.length);
-            }, 800); // changes every 8 seconds
+            }, 8000); // changes every 8 seconds
 
             return () => clearInterval(intervalId);
         }
@@ -76,19 +76,25 @@ function ProjectCard({ project }) {
                         <div
                             style={{
                                 transform: `translateX(-${activeReviewIndex * 100}%)`,
-                                transition: 'transform 5s ease-in-out',
+                                backgroundColor: 'transparent',
+                                transition: 'transform 1s ease-in-out',
                                 width: `${project.reviews.length * 100}%`,
                                 display: 'flex',
                             }}
                         >
                             {project.reviews.map((review, index) => (
-                                <div key={index} className={styles.review} style={{ width: '100%' }}>
+                                <div key={index} className={styles.review}
+                                     style={{width: '100%', backgroundColor: 'transparent'}}>
                                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                                   <img src={review.avatar} alt="Avatar" className={styles.reviewAvatar} />
                                     <div className={styles.reviewContent}>
-                                        <div className={styles.reviewUsername}>{review.username}</div>
-                                        <div className={styles.reviewQuote}>&quot;{review.comment}&quot;</div>
-                                        <a href={review.link} target="_blank" rel="noopener noreferrer" className="underline text-[#EC4899]">Link</a>
+                                        <div className="text-center text-cyan-400">
+                                            {review.username}
+                                        </div>
+                                        <div className="text-center text-pink-500">&quot;{review.comment}&quot;</div>
+                                        <div className="text-center">
+                                            <a href={review.link} target="_blank" rel="noopener noreferrer"
+                                               className="underline text-[#16f2b3]">Link</a>
+                                        </div>
                                     </div>
                                 </div>
                             ))}

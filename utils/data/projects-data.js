@@ -15,7 +15,7 @@ const
             visitMessage:'Find Your Free Flight:',
             impact: '5000+ users, 28000+ searches, 4500+ revenue',
             link: 'https://flymile.pro/',
-            pics: ['/Flymile_home.png', '/Flymile_flights.png', '/Flymile_CV_AA.png', '/Flymile_flights_open.png'],
+            pics: ['/Flymile_home.png', '/Flymile_flights.png', '/Flymile_CV_AA.png', '/Flymile_flights_open.png','/credit_cards.png','/shareFlight.png'],
             reviews: reviewsDataFlyMile
         },
         {
@@ -30,7 +30,7 @@ const
             visitMessage:'Make Informed Academic Choices:',
             impact: '58,000+ reviews, 5,000+ courses, 1,000+ professors',
             link: 'https://concordia.courses/course/econ-203',
-            pics: ['/Concordia_courses_course.png', '/Concordia_courses_prof.png', '/Concordia_courses_reviews.png','/Concordia_courses_AI.png'],
+            pics: ['/Concordia_courses_course.png', '/Concordia_courses_prof.png','/Concordia_courses_dark.png','/Concordia_courses_AI.png', '/Concordia_courses_reviews.png','/Concordia_courses_profile.png'],
             reviews: reviewsDataConcordia
         },
         {
