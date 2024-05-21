@@ -1,12 +1,5 @@
-import crefin
-    from
 
-        '/public/image/crefin.jpg';
-import travel
-    from
-
-        '/public/image/travel.jpg';
-
+import {reviewsDataConcordia, reviewsDataFlyMile} from "@/utils/data/reviews-data";
 export
 const
     projectsData = [
@@ -14,41 +7,47 @@ const
             id: 1,
             name: 'Flymile.pro: Travel for Free - How?',
             description: "Fymile.pro is a flight search platform designed for credit card points enthusiasts. ",
-            tools: ["Java", 'GO', 'Python', "SpringBoot", "MongoDB", "Redis", "React", "Rest API's, JUnit, Selenium"],
+           // tools: ["Java", 'GO', 'Python', "SpringBoot", "MongoDB", "Redis", "React", "Rest API's, JUnit, Selenium"],
+            tools: ["java"],
             role: 'Co-Founder & Lead Software Engineer',
             code: '',
             demo: '',
-            image: crefin,
-            impact: '5000+ users',
+            visitMessage:'Find Your Free Flight:',
+            impact: '5000+ users, 28000+ searches, 4500+ revenue',
             link: 'https://flymile.pro/',
-            pics: ['/Flymile_home.png', 'public/projectImage/Flymile/Flymile_flights.png', '/Flymile_CV_AA.png',
-                '/Flymile_CV_AS.png', 'public/Flymile_flights_open.png'],
+            pics: ['/Flymile_home.png', '/Flymile_flights.png', '/Flymile_CV_AA.png', '/Flymile_flights_open.png'],
+            reviews: reviewsDataFlyMile
         },
         {
             id: 2,
             name: 'Concordia.courses: A platform for students',
-            description: 'Concordia.courses is a student-centric platform offering comprehensive course reviews and professor ratings. It leverages a seamless interface and AI summaries to help students make informed decisions about their academic paths. ',
-            tools: ["Java", "AI", "AWS", "Spring Security", "Svelte", "Redis", "Rest API's, SpringBoot, MongoDB"],
+            description: 'Concordia.courses is a platform offering course reviews and professor ratings to help students make informed academic choices.',
+            //tools: ["Java", "AI", "AWS", "Spring Security", "Svelte", "Redis", "Rest API's, SpringBoot, MongoDB"],
+            tools: ["java"],
             role: 'Data Engineer',
             code: '',
             demo: '',
-            image: travel,
+            visitMessage:'Make Informed Academic Choices:',
             impact: '58,000+ reviews, 5,000+ courses, 1,000+ professors',
             link: 'https://concordia.courses/course/econ-203',
-            pics: ['/Concordia_courses_course.png', '/Concordia_courses_professor.png', '/Concordia_courses_review.png'],
+            pics: ['/Concordia_courses_course.png', '/Concordia_courses_prof.png', '/Concordia_courses_reviews.png','/Concordia_courses_AI.png'],
+            reviews: reviewsDataConcordia
         },
         {
             id: 3,
             name: 'Replied.pro - A platform for creators',
             description: "Replied.pro connects users with influencers for paid Q&A sessions. Users pay for personalized responses, and influencers earn money.",
-            tools: [],
+            //tools: [],
+            tools: ["java"],
             code: '',
             role: 'Backend Engineer',
             demo: '',
             image: "",
+            visitMessage:'Monetize Your Knowledge:',
             impact: 'Coming soon',
             link: 'https://replied.pro/',
-            pics: ['/Coming_soon.png']
+            pics: ['/Coming_soon.png'],
+            reviews: []
         }
     ];
 

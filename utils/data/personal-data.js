@@ -13,5 +13,6 @@ export const personalData = {
   stackOverflow: '',
   leetcode: "https://leetcode.com/u/russaulakh/",
   devUsername: "",
+  Concordia_Courses: "https://concordia.courses/course/econ-203",
   resume: "https://drive.google.com/file/d/15BgoXdbOZIdWHaTG2oTMrHCsmhpYYi0G/view?usp=sharing"
 }

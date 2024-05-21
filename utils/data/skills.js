@@ -2,7 +2,6 @@ export const skillsData = [
   'Java',
   'Python',
   'Go',
-  'C',
   'C++',
   'JavaScript',
   'MySQL',
@@ -12,7 +11,6 @@ export const skillsData = [
   'AWS',
   'Git',
   'Docker',
-  'Figma',
   'Selenium'
 ];
 

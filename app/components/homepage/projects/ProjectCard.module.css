@@ -1,0 +1,35 @@
+
+
+.review {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; /* Adjust if needed */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    overflow: hidden;
+}
+
+.reviewAvatar {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.reviewContent {
+    flex-grow: 1;
+}
+
+.reviewUsername {
+    font-size: 1.1em;
+    color: #333; /* Dark grey, adjust if needed */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.reviewQuote {
+    font-size: 1em;
+    color: #666; /* Lighter grey, adjust if needed */
+}

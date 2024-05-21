@@ -73,16 +73,6 @@ function Education() {
                                                 </p>
                                             </div>
                                         </div>
-                                        <div className="mt-4 px-3">
-                                            <p className="text-sm sm:text-base font-medium">Relevant Courses:</p>
-                                            <ul className="list-disc pl-5">
-                                                {education.RelevantCourses.map(course => (
-                                                    <li key={course} className="text-xs sm:text-sm">
-                                                        {course}
-                                                    </li>
-                                                ))}
-                                            </ul>
-                                        </div>
                                     </div>
                                 </GlowCard>
                             ))}

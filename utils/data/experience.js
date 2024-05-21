@@ -1,7 +1,7 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Co-Founder & Lead Software Engineer',
+    title: 'Co-Founder & Lead Engineer',
     company: "Flymile.pro",
     duration: "December 2023 - Present",
     success: "5000+ users",
