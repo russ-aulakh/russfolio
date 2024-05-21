@@ -10,6 +10,7 @@ import './styles.css';
 
 function MyLogo({ size = 20 }) { // Adjusted the default size here
   return (
+      // eslint-disable-next-line @next/next/no-img-element
       <img
           src="/flymile.webp"
           alt="Flymile Logo"
@@ -20,6 +21,7 @@ function MyLogo({ size = 20 }) { // Adjusted the default size here
 
 function MyLogoConcordia({ size = 20 }) { // Adjusted the default size here
   return (
+      // eslint-disable-next-line @next/next/no-img-element
       <img
           src="/concordiaCourses.webp"
           alt="ConcordiaCourses Logo"

@@ -83,6 +83,7 @@ function ProjectCard({ project }) {
                         >
                             {project.reviews.map((review, index) => (
                                 <div key={index} className={styles.review} style={{ width: '100%' }}>
+                                    {/* eslint-disable-next-line @next/next/no-img-element */}
                                    <img src={review.avatar} alt="Avatar" className={styles.reviewAvatar} />
                                     <div className={styles.reviewContent}>
                                         <div className={styles.reviewUsername}>{review.username}</div>
