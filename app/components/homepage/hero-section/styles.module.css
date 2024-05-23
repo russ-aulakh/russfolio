@@ -26,3 +26,16 @@
     color: #4b8bec;
     text-decoration: none;
 }
+
+.hideOnSmallScreens {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+    /* Elements to hide on screens smaller than 900px */
+    /* .hideOnSmallScreens {
+      display: none;
+    } */
+}
