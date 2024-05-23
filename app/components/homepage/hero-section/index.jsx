@@ -11,7 +11,6 @@ import GlowCard from "../../helper/glow-card";
 import styles from "./styles.module.css";
 
 function MyLogo({ size = 20 }) {
-  // Adjusted the default size here
   return (
       // eslint-disable-next-line @next/next/no-img-element
       <img
@@ -23,7 +22,6 @@ function MyLogo({ size = 20 }) {
 }
 
 function MyLogoConcordia({ size = 20 }) {
-  // Adjusted the default size here
   return (
       // eslint-disable-next-line @next/next/no-img-element
       <img
@@ -42,7 +40,7 @@ function HeroSection() {
             <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
               Hello, <br />
               This is <span className=" text-pink-500">{personalData.name}</span>
-              <span>, I&apos;m a Professional </span>
+              <span>, I&apos;m a Full Stack </span>
               <span className=" text-[#16f2b3]">{personalData.designation}</span>.
             </h1>
 
@@ -77,18 +75,18 @@ function HeroSection() {
                 <FaReddit size={24} />
               </Link>
               <Link
-                  href={personalData.flymile} // Assuming you have a URL for your startup in personalData
-                  target="_blank"
-                  className="transition-all text-pink-500 hover:scale-125 duration-300"
-              >
-                <MyLogo size={20} />
-              </Link>
-              <Link
-                  href={personalData.Concordia_Courses} // Assuming you have a URL for your startup in personalData
+                  href={personalData.Concordia_Courses}
                   target="_blank"
                   className="transition-all text-pink-500 hover:scale-125 duration-300"
               >
                 <MyLogoConcordia size={20} />
+              </Link>
+              <Link
+                  href={personalData.flymile}
+                  target="_blank"
+                  className="transition-all text-pink-500 hover:scale-125 duration-300"
+              >
+                <MyLogo size={20} />
               </Link>
             </div>
 
@@ -128,8 +126,8 @@ function HeroSection() {
           >
             <Image
                 src={personalData.profile}
-                width={250} // Made the image smaller
-                height={250} // Made the image smaller
+                width={250}
+                height={250}
                 alt="Russ Aulakh"
                 className="rounded-full group-hover:my-rotate-y-180 transition-all duration-1000 hover:grayscale-0 hover:scale-110 cursor-pointer hidden md:block"
             />
