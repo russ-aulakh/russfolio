@@ -1,6 +1,6 @@
 export const personalData = {
   name: "Russ Aulakh",
-  profile: '/mypic.jpg',
+  profile: '/mypic1.png',
   designation: "Software Engineer",
   description: "Hello! I'm Russ, a software engineer and co-founder of Flymile.pro, a platform that rapidly attracted over 5,000 users. I spearheaded the development of Concordia.courses, revolutionizing educational resources by integrating comprehensive data analytics. I love to solve Real problems for Real People.",
   email: 's_ravide@live.concordia.ca',

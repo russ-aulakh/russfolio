@@ -116,7 +116,7 @@ function ProjectCard({ project }) {
                 responsive={projectReviewSliderSetting}
                 autoPlay
                 infinite
-                autoPlaySpeed={3000}
+                autoPlaySpeed={3500}
                 containerClass="mt-10"
                 arrows={!modalImageUrl}
             >
