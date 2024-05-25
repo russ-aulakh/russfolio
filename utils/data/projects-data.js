@@ -6,7 +6,7 @@ const
         {
             id: 1,
             name: 'Flymile.pro: Travel for Free - How?',
-            description: "Fymile.pro is a flight search platform designed for credit card points enthusiasts. ",
+            description: "Fymile.pro is a flight search engine designed for credit card points enthusiasts. ",
            // tools: ["Java", 'GO', 'Python', "SpringBoot", "MongoDB", "Redis", "React", "Rest API's, JUnit, Selenium"],
             tools: ["java"],
             role: 'Co-Founder & Lead Software Engineer',
