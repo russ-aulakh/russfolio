@@ -13,7 +13,7 @@ const
             code: '',
             demo: '',
             visitMessage:'Find Your Free Flight:',
-            impact: '5000+ users, 28000+ searches, 4500+ revenue',
+            impact: '9000+ users, 58000+ searches, 6700+ revenue',
             link: 'https://flymile.pro/',
             pics: ['/Flymile_home.png', '/Flymile_flights.png', '/Flymile_CV_AA.png', '/Flymile_flights_open.png','/credit_cards.png','/shareFlight.png'],
             reviews: reviewsDataFlyMile
