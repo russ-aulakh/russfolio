@@ -14,5 +14,5 @@ export const personalData = {
   leetcode: "https://leetcode.com/u/russaulakh/",
   devUsername: "",
   Concordia_Courses: "https://concordia.courses/course/econ-203",
-  resume: "https://drive.google.com/uc?export=download&id=1_uxJTHkpA-r9aTWhLtS1dvWPy-hsFw4i"
+  resume: "https://drive.google.com/uc?export=download&id=1ZkixvWaMQjhaInGwUNZPi4fGXXY1p9ru"
 }
